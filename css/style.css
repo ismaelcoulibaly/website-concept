@@ -1,0 +1,526 @@
+/**
+ * Table of contents
+ * =======================================================
+ *   
+ *   1. Header/NavBar
+ *   2. Section 1:MUSIC CAN CHANGE THE WORLD
+ *   3. Section 2:Discorgaphy
+ *   4. Section 3:Next Events
+ *   5. Section 4:Video
+ *   6. Section 5:Photo gallery
+ *   7. Feature
+ *
+ *
+ * =======================================================
+ **/
+@font-face{
+  font-family: "123";
+  src:url("https://fonts.gstatic.com/s/permanentmarker/v8/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cf5b6jlg.woff2");
+}
+
+body {
+  margin: 0;
+  font-family: "123";
+}
+/**
+ * Section 1 : Header/NavBar
+ * =======================================================
+ */
+header{
+  height: 80px;
+  background-color: rgb(0, 0, 29);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "123";
+}
+
+#imglogo{
+float: left;
+margin-left: 70px;
+
+}
+
+#navbar{
+display: inline-block;
+float: right;
+align-items: center;
+color: white;
+text-align: center;
+padding: 15px;
+width: 45%;
+
+}
+
+#navbar a{
+
+  float: left;
+  margin-right: 60px;
+  font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  color: white;
+  list-style-type: none;
+
+
+}
+
+/**
+ * FIN header
+ * =======================================================
+ */
+
+/**
+ * * Section 1:MUSIC CAN CHANGE THE WORLD
+ * =======================================================
+ */
+#section-titre{
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background:linear-gradient(to right,#fe4291 10%,transparent,#7b47ff 90%),url("http://demo.athemes.com/atu-band/wp-content/uploads/sites/90/2018/07/Layer-49878.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  opacity: 1;
+  
+}
+  
+h2{
+  font-family:"123";
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-align: center;
+}
+
+
+
+#section-titre button {
+  
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 25px 25px 25px 25px;
+  letter-spacing: 2px;
+  color: white; 
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px 45px 15px 45px;
+}
+
+#section-titre button:hover
+{
+  background-color: white;
+  color:black;
+
+}
+
+
+/* Style the search box inside the navigation bar */
+input[type=text] {
+  
+  padding: 6px;
+  border: none;
+ 
+  font-size: 17px;
+   
+    display: block;
+    
+    margin: 0;
+    padding: 14px;
+   border: 1px solid #ccc;
+}
+/**
+ * FIN SECTION 1
+ * =======================================================
+ */
+
+/**
+ * Section 2 : Discography
+ * =======================================================
+ */
+
+#section1{
+  background-color: #090c25;
+  padding: 90px 0px 90px 0px;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre{
+  font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+p{ font-family:"Work Sans", Helvetica, Arial, sans-serif;
+font-size: 18px;
+text-align: center;}
+
+.img-container>p{
+  font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.img-container{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 363px;
+  padding: 30px;
+}
+ul.discography>div>li{
+
+  font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  display: inline-block;
+  color: #e633ba;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+/**
+ * FIN Section 2 
+ * =======================================================
+ */
+
+ /**
+ * Section 3: Next Events
+ * =======================================================
+ */
+
+ #NextEvents{
+  background-image: url(http://demo.athemes.com/atu-band/wp-content/uploads/sites/90/2018/07/Layer-49883.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0px 90px 0px;
+  position: relative;
+}
+
+.nextEvent li{
+
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+    
+}
+.event-container{
+  flex: 1;
+}
+.event-container h4 a{
+  color: white;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  position: left;
+   
+    
+}
+
+.location{
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: #595959;
+  box-sizing: border-box;
+}
+
+.tribe-event-date-start{
+  color: #bfbfbf;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+
+}
+
+.buttonEvent{
+  
+  background-color: transparent;
+  border:2px solid #e633ba;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 25px 25px 25px 25px;
+  letter-spacing: 2px;
+  color: white; 
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  
+  padding: 15px 45px 15px 45px;
+}
+/**
+ * FIN Section 2 
+ * =======================================================
+ */
+
+/**
+ * Sectione 3 : video
+ * =======================================================
+ */
+
+
+ 
+#video{
+  width: 100%;
+  max-height: 100vh;
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  background:   linear-gradient(90deg, #fe4291,transparent,#7b47ff),url(http://demo.athemes.com/atu-band/wp-content/uploads/sites/90/2018/07/Layer-49888.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 145px 0px 145px 0px;
+  
+}
+#video h2{
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-align: center;
+}
+
+.video-container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.felementor-custom-embed-play i ,.elementor-screen-only{
+  color: white;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+;}
+h5{
+  display: block;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.elementor-custom-embed-play{
+
+}
+
+/**
+ * FIN Section 3 : video
+ * =======================================================
+ */
+
+ /**
+ * Section 4 : photo Gallery
+ * =======================================================
+ */
+
+ #photoGallery{
+    background-color:#090c25;
+    margin-top: 0;
+    display:inline-block;
+
+ }
+
+ #photoGallery ol li{
+   font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  display: flex;
+  color:white;
+  
+ }
+.photo-container{
+  flex: 1;
+}
+.photo-container h4 a{
+  color: white;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+    
+}
+.photoGallery{
+   width: 100%;
+  padding: 0px 0px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.photoGallery img{
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  height: 228px;
+  border: none;
+  margin: 0;
+   
+  
+
+}
+/**
+ * FIN Section 4
+ * =======================================================
+ */
+
+/* Sub1
+ ============================= */
+
+#sub1{
+    height: 350px;
+    background-color: rgb(8, 0, 36);
+    color: white;
+    padding-top: 40px;
+}
+#sub1 h1{
+    font-family: "airiBody";
+    color: white;
+    text-align: center;
+    background-color:   
+}
+
+#sub1 p{
+    font-family: "airiBody";
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.addresse{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+
+}
+
+#sub1 input[type=email]{
+    background-color: rgb(43, 44, 73);
+    height: 45px;
+    color: gray;
+    padding-left: 10px;
+    border-top-left-radius: 30px 50%;
+    border-bottom-left-radius: 30px 50%;
+
+}
+
+#sub1 button{
+    background-color: rgb(255, 0, 242);
+    border-radius: 25px;
+    border-color: rgb(255, 0, 242);
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 15px 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: rgb(255, 0, 242);
+    border-color: rgb(255, 0, 242); 
+}
+
+ 
+/*  Section 5: Feature
+ ============================= */
+
+ #feature {
+  height: 100px;
+  background-color: #00091a;
+  color: steelblue;
+  display: flex;
+  align-items: center;
+}
+
+.logo2{
+  padding-right: 200px;
+}
+
+#feature ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 80%;
+}
+
+#feature li {
+  display: inline-block;
+}
+#feature ul li a{
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+ 
+}
+
+.social a{
+  display: inline-block;
+  margin-right: 7px; /*space between*/
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.icon2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #909090;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.icon2:hover {
+  background-color:  rgb(255, 0, 242);
+  color: white;
+  border-color: rgb(255, 0, 242); 
+}
+/* Footer
+============================= */
+
+footer p{
+    opacity: 0.7;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer{
+  height: 30px;  
+}
+
+
+ /*=======================fin============================*/

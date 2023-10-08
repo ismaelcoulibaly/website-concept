@@ -1,0 +1,252 @@
+/**
+ * Table of Content
+ *
+ *  > General
+ *  > Info
+ *  > Formulaire
+ *  > Feature
+ *  > Footer
+ * ============================= */
+
+/* General
+   ============================= */
+
+@font-face {
+    font-family: "airiBody";
+    src: url("https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh3j4P8mNhNy_r-Kw.woff2");
+}
+
+h1{
+    font-family: "airiBody";
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    margin: 0;
+    font-family: "airiBody";
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+  
+hr {
+    width: 80px;
+    height: 1px;
+    border-color: rgb(255, 0, 221);
+    background-color:   rgb(255,0,221);
+    margin-top: 0;
+}
+
+footer{
+    height: 37px;  
+}
+
+/* Info
+ ============================= */
+  
+#info {
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info ul {
+    display: flex;
+    margin-top: 70px;
+    margin-right: 40px;
+    justify-content: space-between;
+    width: 57%;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+#info li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#info p {
+    text-align: center;
+    display: flex;
+    line-height: 25px;
+}
+  
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    height: 35px;
+    width: 35px;
+    box-shadow: 0px 0px 1px rgb(175, 175, 175);
+    padding: 0.5em 0.5em;
+    text-align: center;
+    color: rgb(255, 0, 242);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;   
+}
+
+.icon1:hover {
+    background-color:  rgb(255, 0, 242);
+    color: white;
+    border-color: rgb(255, 0, 242); 
+}
+  
+/* Formulaire
+ ============================= */
+  
+#formulaire {
+    height: 680px;
+    padding-top: 60px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    height: 50px;
+    width: 90%;
+    border
+}
+
+select{
+    height: 20px;
+    width: 550px;
+    margin-right: 40px;
+}
+
+textarea {
+    height: 120px;
+    width: 97%;
+}
+
+form{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 70%;
+    width: 70%;
+}
+
+.first-line, .second-line, .third_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.first-line input[type=tel] {
+    width: 91%;
+}
+
+.second-line input[type=text]{
+    width: 94%;
+}
+
+button{
+    background-color: rgb(255, 0, 242);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 16px 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: white;
+    color: rgb(255, 0, 242);
+    border-color: rgb(255, 0, 242); 
+}
+
+#formulaire p {
+   align-items: center;
+   text-align: center;
+   align-content: center;
+}
+
+/* Feature
+ ============================= */
+
+#feature {
+    height: 15px;
+    background-color: #00091a;
+    color: steelblue;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.logo2{
+    padding-right: 200px;
+}
+#feature ul {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 72%;
+    padding-right: 200px;
+}
+
+#feature li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#feature ul li a{
+    font-size: 14px;
+   
+  }
+
+.social a{
+    display: inline-block;
+    margin-right: 7px; /*space between*/
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #909090;
+    border-radius: 20px;
+    border-color: rgb(31, 42, 51);
+    text-align: center;
+}
+
+.icon2:hover {
+    background-color:  rgb(255, 0, 242);
+    color: white;
+    border-color: rgb(255, 0, 242); 
+}
+/* Footer
+ ============================= */
+
+footer p{
+      opacity: 0.7;
+      text-align: center;
+      font-size: 13px;
+}
+  
