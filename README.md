@@ -6,7 +6,7 @@ I succeeded in creating gradients, adding transparency, used the right fonts wit
 And it looks really good.
 
 
-This demonstrates my abilities in HTML and CSS.  
+This demonstrates my abilities in HTML and CSS.  - Made in Febuary 2019
 
 <img src="home.png">
 <img src="discography.png">
@@ -16,4 +16,3 @@ This demonstrates my abilities in HTML and CSS.
 <img src="newsletter.png">
 <img src="contact.png">
 
-- Made in Febuary 2019
